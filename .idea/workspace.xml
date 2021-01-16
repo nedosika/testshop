@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45608c8-f17b-4b0b-a68b-161330011cba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testshop/src/components/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/public/assets/images/apples.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/public/assets/images/banan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/public/assets/images/papayya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/components/Cart/Cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/components/Layout/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/components/Products/Products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testshop/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/testshop/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testshop/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/testshop/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testshop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/testshop/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testshop/src/components/App/App.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testshop/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/testshop/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,13 +35,24 @@
   <component name="ProjectId" id="1n103QH7zNwnStF5xRWsr9SNODo" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testshop/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\#PROJECTS\REACT\testtask\testshop\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\#PROJECTS\REACT\testtask\testshop\src\assets\images" />
+      <recent name="D:\#PROJECTS\REACT\testtask\testshop\src" />
+      <recent name="D:\#PROJECTS\REACT\testtask\testshop" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -67,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610542089681</updated>
-      <workItem from="1610542091560" duration="2047000" />
+      <workItem from="1610542091560" duration="3433000" />
+      <workItem from="1610550625213" duration="39081000" />
     </task>
     <task id="LOCAL-00001" summary="initil commit">
       <created>1610542590581</created>
@@ -76,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610542590581</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="remove unnecessary data">
+      <created>1610544352261</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610544352262</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,7 +104,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -95,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initil commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initil commit" />
+    <MESSAGE value="remove unnecessary data" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unnecessary data" />
   </component>
 </project>

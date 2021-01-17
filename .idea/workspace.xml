@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45608c8-f17b-4b0b-a68b-161330011cba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testshop/public/assets/images/apples.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testshop/public/assets/images/banan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testshop/public/assets/images/papayya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testshop/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testshop/src/components/Cart/Cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testshop/src/components/Layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testshop/src/components/Products/Products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/actions/addItemToCart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/actions/decItemFromCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/actions/deleteItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/utils/calculateTotalPrice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/utils/clculateDiscount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/utils/decreasedCartItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/utils/deleteCartItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/utils/getImageSrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/utils/updateCartItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testshop/src/utils/updateCartItems.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testshop/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/testshop/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/testshop/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/testshop/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/src/components/App/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testshop/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/testshop/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testshop/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testshop/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/testshop/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testshop/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/testshop/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testshop/src/components/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/testshop/src/components/Products/Products.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610542089681</updated>
       <workItem from="1610542091560" duration="3433000" />
-      <workItem from="1610550625213" duration="39081000" />
+      <workItem from="1610550625213" duration="44983000" />
     </task>
     <task id="LOCAL-00001" summary="initil commit">
       <created>1610542590581</created>
@@ -93,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610544352262</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add reduce">
+      <created>1610834362385</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610834362385</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initil commit" />
     <MESSAGE value="remove unnecessary data" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove unnecessary data" />
+    <MESSAGE value="add reduce" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reduce" />
   </component>
 </project>

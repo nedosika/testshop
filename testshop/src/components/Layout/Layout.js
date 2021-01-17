@@ -7,7 +7,6 @@ import Button from "@material-ui/core/Button";
 import {useHistory} from 'react-router-dom';
 import Badge from '@material-ui/core/Badge';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-import AddCircleIcon from "@material-ui/core/SvgIcon/SvgIcon";
 import IconButton from "@material-ui/core/IconButton";
 
 const useStyles = makeStyles((theme) => ({
